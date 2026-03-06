@@ -24,9 +24,6 @@ if (session_status() === PHP_SESSION_NONE) {
 </head>
 <script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
 <body>
-<p
-    class="alert alert-success text-center m-0 p-2"
-    id="success-message"    ></p>
     @include('partials.header')
 
 <main>
